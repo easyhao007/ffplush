@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+E_SUCCESS	core/ff_core.h	50;"	d
+InputContext	core/ff_core.h	/^typedef struct InputContext$/;"	s
+_FF_CORE_H	core/ff_core.h	5;"	d
+_FF_INPUT_CONTEXT_	input/ff_input_context.h	7;"	d
+audio_codec_name	core/ff_core.h	/^	string 	audio_codec_name;$/;"	m	struct:InputContext
+data_codec_name	core/ff_core.h	/^	string 	data_codec_name;$/;"	m	struct:InputContext
+ff_input_context	input/ff_input_context.cpp	/^ff_input_context::ff_input_context()$/;"	f	class:ff_input_context
+ff_input_context	input/ff_input_context.h	/^class ff_input_context$/;"	c
+in_format	core/ff_core.h	/^	string 	in_format;$/;"	m	struct:InputContext
+init	input/ff_input_context.cpp	/^int ff_input_context::init()$/;"	f	class:ff_input_context
+m_file_iformat	input/ff_input_context.h	/^	AVInputFormat	*m_file_iformat;$/;"	m	class:ff_input_context
+m_format_opts	input/ff_input_context.h	/^	AVDictionary	*m_format_opts;$/;"	m	class:ff_input_context
+m_ifmt_ctx	input/ff_input_context.h	/^	AVFormatContext *m_ifmt_ctx;$/;"	m	class:ff_input_context
+m_in_ctx	input/ff_input_context.h	/^	InputContext m_in_ctx;$/;"	m	class:ff_input_context
+m_in_file	input/ff_input_context.h	/^	string m_in_file;$/;"	m	class:ff_input_context
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+nb_audio_channels	core/ff_core.h	/^	int 	nb_audio_channels;$/;"	m	struct:InputContext
+nb_audio_sample_rate	core/ff_core.h	/^	int 	nb_audio_sample_rate;$/;"	m	struct:InputContext
+nb_frame_rates	core/ff_core.h	/^	int 	nb_frame_rates;$/;"	m	struct:InputContext
+nb_frame_sizes	core/ff_core.h	/^	int 	nb_frame_sizes;$/;"	m	struct:InputContext
+subtitle_codec_name	core/ff_core.h	/^	string 	subtitle_codec_name;$/;"	m	struct:InputContext
+video_codec_name	core/ff_core.h	/^	string 	video_codec_name;$/;"	m	struct:InputContext
+~ff_input_context	input/ff_input_context.cpp	/^ff_input_context::~ff_input_context()$/;"	f	class:ff_input_context
